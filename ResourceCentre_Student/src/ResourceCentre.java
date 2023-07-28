@@ -140,6 +140,7 @@ public class ResourceCentre {
 	}
 	
 	public static void viewAllCamcorder(ArrayList<Camcorder> camcorderList) {
+		//testing at view AllCamcamcorder
 		ResourceCentre.setHeader("CAMCORDER LIST");
 		String output = String.format("%-10s %-30s %-10s %-10s %-20s\n", "ASSET TAG", "DESCRIPTION",
 				"AVAILABLE", "DUE DATE","OPTICAL ZOOM");
