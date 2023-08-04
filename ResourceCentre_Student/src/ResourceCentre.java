@@ -127,6 +127,7 @@ public class ResourceCentre {
 	//================================= Option 1 View items (CRUD- Read) =================================
 	public static String retrieveAllCamcorder(ArrayList<Camcorder> camcorderList) {
 		String output = "";
+		// simple change
 
 		for (int i = 0; i < camcorderList.size(); i++) {
 			if (camcorderList.get(i).getIsAvailable()) {
